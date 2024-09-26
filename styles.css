@@ -1,16 +1,18 @@
 
 header {
-    margin-top: 40px; 
+    margin-top: 20px; 
     padding: 10px 0; 
 }
-
+body {
+    background-color: #EEF8FF !important;
+}
 
 .menu-icon {
     font-size: 24px;
 }
 
 .current-weather {
-    margin-top: 40px; /* Increase spacing between search bar and current weather section */
+    margin-top: 35px; /* Increase spacing between search bar and current weather section */
 }
 
 .current-weather h1 {
