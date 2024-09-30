@@ -24,7 +24,8 @@ function SearchCity() {
             });
 
             // Set weekly forecast (using daily data)
-            const weeklyForecast = data.forecast.forecastday; // Get the next 3 days' forecast
+            const weeklyForecast = data.forecast.forecastday; // Get the next days' forecast
+            const weeklyTableBody = document.getElementById("weekly-forecast-body");
             const weeklyTable = document.querySelector('.weekly-forecast tbody');
             weeklyTable.innerHTML = ''; // Clear previous data
             weeklyForecast.forEach(day => {
